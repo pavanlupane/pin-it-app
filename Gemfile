@@ -54,5 +54,7 @@ group :development do
 
   gem 'paperclip', '~> 4.3', '>= 4.3.6'
 
+  gem 'masonry-rails', '~> 0.2.4'
+
 end
 
