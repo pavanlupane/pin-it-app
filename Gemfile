@@ -50,5 +50,7 @@ group :development do
 
   gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
+  gem 'devise', '~> 4.1', '>= 4.1.1'
+
 end
 
