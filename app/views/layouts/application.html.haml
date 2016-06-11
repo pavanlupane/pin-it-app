@@ -24,4 +24,5 @@
 		- flash.each do |name, msg|
 			= content_tag :div, msg, class: "alert alert-info"
 
-	= yield
+	.col-md-10.col-md-offset-1
+		= yield
