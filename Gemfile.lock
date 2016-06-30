@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/stripe/stripe-ruby
+  revision: 774e885334d4f14ee0ff509705a99ac127c334a9
+  specs:
+    stripe (1.44.0)
+      rest-client (~> 1.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -138,6 +145,8 @@ GEM
       json (~> 1.4)
     responders (2.2.0)
       railties (>= 4.2.0, < 5.1)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     sass (3.4.22)
     sass-rails (5.0.4)
       railties (>= 4.0.0, < 5.0)
@@ -197,6 +206,7 @@ DEPENDENCIES
   simple_form (~> 3.2, >= 3.2.1)
   spring
   sqlite3
+  stripe!
   turbolinks
   uglifier (>= 1.3.0)
   web-console (~> 2.0)

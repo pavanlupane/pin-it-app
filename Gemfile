@@ -58,5 +58,7 @@ group :development do
 
   gem 'acts_as_votable', '~> 0.10.0'
 
+  gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
+
 end
 
