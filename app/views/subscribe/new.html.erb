@@ -1,0 +1,16 @@
+<h1>Add Subscription</h1>
+
+<%= form_tag subscribe_path(1), :method => :put do %>
+	<article>
+		<label class="amount">
+			<span>Amount: $4.99</span>
+		</label>
+	</article>
+
+<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+          data-description="A week's subscription"
+          data-amount="499"
+          data-locale="auto"></script>
+
+<%end%>
