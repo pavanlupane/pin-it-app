@@ -11,7 +11,12 @@ class PinsController < ApplicationController
 
 	end
 	def new
-		@pin = current_user.pins.build
+		if current_user.subscribed
+			@pin = current_user.pins.build
+		else
+			flash[:notice] = "Please subscribe to use your Pin-Board!"
+			redirect_to(:action=>"new", :controller=>"subscribe", :id => current_user.id)
+		end
 	end
 
 	def create

@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   root "pins#index"
 
   resources :subscribe
+
+  get "subscribe" => "subscribe#new"
 end
