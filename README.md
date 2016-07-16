@@ -12,7 +12,7 @@
 $ git clone https://github.com/pavanlupane/pin-it-app.git
 ```
 
-2. run ```bundle install``` from your project root directory
+2. Run ```bundle install``` from your project root directory
 ###### B. Ruby, Rails setup
 Download and setup latest or below versions of Ruby and Rails 
  1. Ruby version ``` ruby 2.3```
@@ -20,7 +20,7 @@ Download and setup latest or below versions of Ruby and Rails
 
 ###### C. DB setup
 1. Download latest or ``` sqlite3  Ver 3.8.10.2 ``` 
-2. run ``` rake db:migrate ``` from the root directory of your application
+2. Run ``` rake db:migrate ``` from the root directory of your application
 
 ###### D. Running the Application
 1. Once all above setup is done, go to the root directory of your application and run
@@ -38,5 +38,11 @@ $ rails s
 
 
 #### Screens
-
+1. Main Menu
 ![Main Menu](/screens/home.png? "Home Screen")
+
+2. Single Pin View
+![Single Pin](/screens/single_pin_view.png? "Home Screen")
+
+3. Responsive View
+![Single Pin](/screens/responsive_view.png? "Home Screen")
