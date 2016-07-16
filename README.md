@@ -13,6 +13,8 @@ $ git clone https://github.com/pavanlupane/pin-it-app.git
 ```
 
 2. Run ```bundle install``` from your project root directory
+
+
 ###### B. Ruby, Rails setup
 Download and setup latest or below versions of Ruby and Rails 
  1. Ruby version ``` ruby 2.3```
